@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background: repeating-linear-gradient(to right, #121116, #121116 30px, #2a252b 30px, #2a252b 100px);
+}
+
+.main__underline {
+    margin-top: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.main__underline::after {
+    content: "";
+    display: block;
+    width: 230px;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.main__img img {
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.Copyrights span {
+    color: #22718b;
+    font-size: 15px;
+}
+
+.Copyrights {
+    font-weight: 600;
+}
+
+.main__img img:hover {
+    background-color: #22718b;
+    border-radius: 50%;
+}
